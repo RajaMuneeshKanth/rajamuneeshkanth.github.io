@@ -1,146 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raja Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            display: flex; /* Use flexbox to create the layout */
-            background-color: #f4f4f4;
-        }
-
-        .left-column {
-            flex: 1; /* Take up one-third of the available space */
-            background-color: #007BFF; /* Background color for the left side */
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .vertical-line {
-            width: 2px;
-            background-color: #fff; /* Vertical line color */
-            margin: 0 20px;
-        }
-
-        .right-column {
-            flex: 2; /* Take up two-thirds of the available space */
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .contact-info {
-            margin-bottom: 20px;
-            color: #fff; /* Text color for contact info */
-            text-align: center;
-        }
-
-        .contact-info p {
-            margin: 5px 0;
-        }
-
-        /* Added styles for Languages and Hobbies */
-        .languages,
-        .hobbies {
-            color: black;
-        }
-
-        /* CSS to make the image circular */
-        .profile-image img {
-            border-radius: 50%; /* Creates a circular shape */
-            overflow: hidden; /* Ensures the image doesn't overflow the circle */
-            width: 200px;
-            height: 200px;
-        }
-    </style>
+  <style>
+    .certification_item ul {
+      font-size: 150%;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <div class="left-column">
-            <div class="profile-image">
-                <img src="https://github.com/RajaMuneeshKanth/rajamuneeshkanth.github.io/commit/1939bb02b2758b08e9c275a86e36faa427e470f9" alt="Raja Photo">
-            </div>
-            <div class="vertical-line"></div>
-            <div class="contact-info">
-                <h3 style="color: black;">Contact-info</h3>
-                <p>Phone: 9676867696</p>
-                <p>Email: <a href="mailto:raja.mk.wou@gmail.com@gmail.com">raja.mk.wou@gmail.com@gmail.com</a></p>
-                <a href="www.linkedin.com/in/raja6922
 
-" target="_blank">LinkedIn Profile</a>
-            </div>
-            <!-- Added Languages and Hobbies sections -->
-            <div class="languages">
-                <h3>Languages</h3>
-                <ul style=square>
-                    <li>English</li>
-                    <li>Hindi</li>
-                    <li>Telugu</li>
-                </ul>
-            </div>
-            <div class="hobbies">
-                <h3><center>Skills</center></h3>
-                <ul>
-                  <li>Data visualization</li>
-                  <li>Machine learning</li>
-                  <li>NFT</li>
-                  <li>AR/VR</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h3><center>Proffesional Skills</center></h3>
-                <div class="skills">
-                    <ul>
-                        <li>Colloborative</li>
-                        <li>Leadership</li>
-                        <li>Communication</li>
-                        <li>Team player</li>
-                    </ul>
-                </div>
-            </div>
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="profile_container">
+        <div class="profile_profileImg">
+          <img src="./images/profileImage.png" alt="Raja">
         </div>
-        <div class="right-column">
-            <h1>Raja Muneesh Kanth</h1>
-            <div class="section">
-                <h2 style="color:blue;">Academics</h2>
-                <p><strong>Woxsen University | Hyderabad</strong></p>
-                <p>2021 - 2025 | B.Tech: Data Science and Artificial Intelligence</p>
-                <p><strong>Narayana Junior college | Hyderabad</strong></p>
-                <p>2018 - 2020 | Intermediate: MPC</p>
-                <p><strong>Narayan High School | Hyderabad</strong></p>
-            </div>
-            <div class="section">
-                <h2 style="color:blue;">Certifications</h2>
-                <ul>
-                    <li>Data Analysis with Python (2022)</li>
-                    <li>Data Visualization with Python (2022)</li>
-                    <li>AI for Everyone (2023)</li>
-                    <li>Python for Data Science, AI, and Development (2023)</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2 style="color:blue;">Projects</h2>
-                <h3>Block Chain E-Voting system</h3>
-                <h3>Acoustic Water management system</h3>
-                <h3>Hand written digit classification using deep learning</h3>
-                <h3>Vehicular traffic flow using Deep learning</h3>
-                
-            </div>
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">RAJA MUNEESH KANTH</span>
+            <span class="profile_name_lastName">Undergraduate</span>
+          </h1>
+          <p class="profile_title">DATA SCIENCE AND ARTIFICIAL INTELLIGENCE</p>
+          <p class="description profile_description">
+            Beyond my technical skills, I am a natural leader and a collaborative team player. I excel at fostering strong relationships and building rapport with colleagues, clients, and stakeholders at all levels. By leveraging my exceptional communication and interpersonal skills, I effectively navigate cross-functional collaborations and drive collective success.
+          </p>
+          <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Resume</a>
         </div>
+      </div>
     </div>
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">Expertise</h3>
+        <ul class="skills_list description">
+          <li>Data Analysis</li>
+          <li>Machine Learning</li>
+          <li>Artificial Intelligence</li>
+          <li>Statistical Analysis</li>
+          <li>Data Visualization</li>
+        </ul>
+      </div>
+      <div class="ref">
+        <h3 class="title">SOFT SKILLS</h3>
+         <ul class="skills_list description">
+          <li>Leadership</li>
+          <li>Responsibility</li>
+          <li>Adaptability</li>
+          <li>Empathy</li>
+          <li>Active listener</li>
+        </ul>
+        
+      </div>
+
+      <div class="edu">
+        <h3 class="title">Education</h3>
+        <div class="edu_item">
+          <p class="item_preTitle">2021-2025</p>
+          <h4 class="item_title">B.Tech in DSAI</h4>
+          <p class="item_subtitle">
+            Woxsen University
+          </p>
+        </div>
+        <div class="edu_item">
+          <p class="item_preTitle">2018-2020</p>
+          <h4 class="item_title">MPC</h4>
+          <p class="item_subtitle">
+            Narayana Junior College
+          </p>
+        </div>
+      </div>
+      <div class="certification">
+        <h3 class="title">certification</h3>
+        <div class="certification_item">
+          <ul>
+            <li>Data Analysis with Python (2022)</li>
+            <li>Data Visualization with Python (2022)</li>
+            <li>AI for Everyone (2023)</li>
+            <li>Python for Data Science, AI, and Development (2023)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="group-2">
+      <div class="exp">
+        <h3 class="title">Experience</h3>
+        <div class="exp_item">
+          <p class="item_preTitle">2021 - present</p>
+          <h4 class="item_title">Research Assistant</h4>
+          <p class="item_subtitle">Dr.Shaik Ahmed | Quantum Computing</p>
+          <p class=" description">
+            Research techniques, Procedures, Tests, Quantum code for qubit entanglement.
+          </p>
+        </div>
+        <div class="exp_item">
+          <p class="item_preTitle">2021 - present</p>
+          <h4 class="item_title">Resarch analyst</h4>
+          <p class="item_subtitle">COE - Meta Tech</p>
+          <p class="description">
+            Conducted in-depth qualitative and quantitative research to identify trends and generate insights,Collaborated with other researchers to develop successful research strategies,Working on AR/VR projects and Extended reality.
+          </p>
+        </div>
+      </div>
+      <div class="Hackathons">
+        <h3 class="title">Hackathons</h3>
+        <div class="awards_item">
+          <p class="item_preTitle">2023</p>
+          <h4 class="item_title">R1 Code fiesta</h4>
+          <p class=" description">
+            Made a Block chain E-Voting system using solidity
+          </p>
+        </div>
+        <div class="awards_item">
+          <p class="item_preTitle">2023</p>
+          <h4 class="item_title">TSPCB Eco Champions</h4>
+          <p class="description">
+            Built a accoustic sesor water managment system using machine learning and AI
+          </p>
+        </div>
+      </div>
+
+      <div class="interest">
+        <h3 class="title">Interest</h3>
+        <div class="interest_items">
+          <div class="interest_item">
+            <i data-feather="music"></i>
+            <span>Music</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="book"></i>
+            <span>Books</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="map"></i>
+            <span>Travel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="group-3">
+      <div class="contact">
+        <h3 class="title">Contact</h3>
+        <div class="contact_info">
+          <p class="description">
+            Hyderabad, Telangana
+          </p>
+          <p class="description">
+            +91 9676978796
+          </p>
+          <p class="description">
+            raja.mk.wou@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <h3 class="title">Socials</h3>
+        <div class="social_items">
+          <a href="https://github.com/RajaMuneeshKanth" target="_b" class="social_item">
+            <i data-feather="github"></i>
+            <span>/rajamuneeshkanth</span>
+          </a>
+          <a href="https://x.com/mk_wou?t=ZxtfbsysiFMYzcN_Sjq_Dg&s=09" target="_blank" class="social_item">
+            <i data-feather="twitter"></i>
+            <span>/rajamuneeshkanth</span>
+          </a>
+          <a href="https://www.linkedin.com/in/raja6922/" target="_blank" class="social_item">
+            <i data-feather="linkedin"></i>
+            <span>/rajamuneeshkanth</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    feather.replace()
+  </script>
 </body>
+
 </html>
